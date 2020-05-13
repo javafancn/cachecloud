@@ -33,7 +33,7 @@
         <maven.war.plugin>2.4</maven.war.plugin>
         <maven.surefire.plugin>2.16</maven.surefire.plugin>
         <maven.clean.plugin>2.5</maven.clean.plugin>
-        <ganymed.ssh.version>build210</ganymed.ssh.version>
+        <ganymed.ssh.version>262</ganymed.ssh.version>
         <commons.collections.version>3.2.1</commons.collections.version>
         <commons.io.version>2.4</commons.io.version>
         <guava.version>15.0</guava.version>

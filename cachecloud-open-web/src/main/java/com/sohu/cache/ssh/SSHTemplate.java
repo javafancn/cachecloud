@@ -280,7 +280,7 @@ public class SSHTemplate {
     	public Result scp(String[] localFiles, String[] remoteFiles, String remoteTargetDirectory, String mode) {
     		try {
     			SCPClient client = conn.createSCPClient();
-				client.put(localFiles, remoteFiles, remoteTargetDirectory, mode);
+				client.put(localFiles[0], localFiles[0].length(), remoteTargetDirectory, mode);
 				return new Result(true);
 			} catch (Exception e) {
 				logger.error("scp local="+Arrays.toString(localFiles)+" to "+
